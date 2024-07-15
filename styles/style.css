@@ -95,8 +95,9 @@
 
 .banner-img{
     border-radius: 8px;
+    width: 100%;
     max-width: 1440px;
-    height: 700px;
+    height: auto;
 }
 
 @media screen and (max-width:576px)  {
