@@ -145,6 +145,7 @@ body{
     max-width:1440px ;
     margin-top: 100px;
     gap: 100px;
+    margin-bottom: 100px;
 }
 
 .lfeatures-tittle h1{
@@ -208,7 +209,55 @@ body{
 
 
 
+/* facts section */
+.facts{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
 
+.facts-tittle h1{
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.facts-tittle p{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.badge-container{
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.badge{
+    width: 240px;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 45px;
+    text-align: center;
+}
+
+.badge h3{
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600; 
+    
+}
+.badge h5{
+    color: rgb(114, 114, 114);
+    font-size: 1.2rem;
+    font-weight: 600;}
 
 
 
@@ -221,7 +270,11 @@ body{
 
 @media screen and (max-width:576px)  {
         
-    .navbar,.navbar-menu, .features,.loved-features, .lfeatures-card-container{
+    .navbar,.navbar-menu, 
+    .features,.loved-features, 
+    .lfeatures-card-container,
+    .badge-container
+    {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -242,6 +295,7 @@ body{
             margin-top: 0px;}   
 
 }
+
 
 
 
