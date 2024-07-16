@@ -186,8 +186,8 @@ body{
     font-weight: 400;}
 
     #button{
-        width: 342px;
-        height: 200px;
+        width: 300px;
+        height: auto;
         padding: 40px;
         margin-left: -100px;
         margin-top: -200px;
@@ -198,6 +198,12 @@ body{
         font-weight: 600;
     }
 
+.loved-features-img{
+    width: 100%;
+    max-width:700px;
+    height:auto;
+    margin: 0 auto;
+}
 
 
 
@@ -214,16 +220,13 @@ body{
 
 
 @media screen and (max-width:576px)  {
-    
-    .header{
-        width: 100%;
-    }
-    .navbar,.navbar-menu, .features, .lfeatures-card-container{
+        
+    .navbar,.navbar-menu, .features,.loved-features, .lfeatures-card-container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         }
-
+        
         .img-container{
             display: grid;
             grid-template-columns:repeat(1,1fr);
@@ -233,6 +236,10 @@ body{
     .feature-text{  
         align-items: center;
         text-align: center;}
+
+        #button{  
+            margin-left:0px;
+            margin-top: 0px;}   
 
 }
 
